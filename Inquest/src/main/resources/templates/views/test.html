@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="css/styles.css" rel="stylesheet" tyle="text/css">
+</head>
+<body>
+	<div class="container"></div>
+	<div class="question">1. 핸드폰으로 온 연락, 친구들이 오랜만에 만나자고 한다.</div>
+	<button class="answer" value="I">아 조금 귀찮은데... 친구들이 보고 싶기는 하지만 집이 좋다</button>
+	<button class="answer" value="E">만나자고? 당연히 만나야지! 여기 요즘 핫플이라는데 갈래? 너무 좋다</button>
+	<div th:replace="~{../fragments/fragment-script :: script}"></div>
+</body>
+</html>
